@@ -1,0 +1,112 @@
+/* ==========================================
+   Global / Shared Styles
+   ========================================== */
+
+/* Consolidated content boxes with purple backgrounds and padding */
+.content-box {
+    background-color: #9370DB; /* Medium purple shade matching the design */
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+/* Shared styling for headings/subtitles */
+h1, h2, .subtitle {
+    text-align: center;
+    font-family: serif;
+}
+
+/* ==========================================
+   Header Section Styling
+   ========================================== */
+header {
+    background-color: #9370DB;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Icons navigation bar layout */
+#icons-bar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 15px 0;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+
+.img-box img {
+    width: 24px;
+    height: 24px;
+}
+
+/* ==========================================
+   About Us Section Styling
+   ========================================== */
+#about-us h2 {
+    color: #00FF00; /* Bright green header text */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+}
+
+#about-us p {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* Highlighted emphasis text inside paragraphs */
+.emphasis {
+    color: #00FF00;
+    font-weight: bold;
+}
+
+/* ==========================================
+   Services Section Styling
+   ========================================== */
+#services {
+    background-color: #9370DB;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid orange; /* Distinct orange border matching the reference screenshot */
+}
+
+#services h2 {
+    color: #00FF00;
+    margin-bottom: 10px;
+}
+
+#services ol {
+    text-align: center;
+    list-style-position: inside; /* Keeps list numbers neatly aligned */
+    padding: 0;
+}
+
+#services li {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+/* ==========================================
+   Code Summary & Reflection
+   ==========================================
+   - What was new: Using pure CSS structural styling and combining classes/IDs 
+     to apply uniform backgrounds and text coloring without flexbox/grid layout constraints.
+   - Issues run into: Ensuring precise color matches for the bright green accent text 
+     and matching the specific border styling on the services container block.
+   - Key takeaway: Consolidating shared properties (like .content-box background and padding) 
+     drastically reduces code duplication across distinct sections.
+   ========================================== */
